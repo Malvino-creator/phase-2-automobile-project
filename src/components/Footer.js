@@ -11,6 +11,9 @@ function Footer() {
             <div className="socialmedia">
                 <Instagram /> <TwitterIcon /> <FaceBookIcon /> <LinkedInIcon />
             </div>
+            <p> &copy; 2021 ptpautomobile.com</p>
         </div>
     )
 }
+
+export default Footer;
