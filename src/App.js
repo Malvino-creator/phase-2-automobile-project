@@ -1,11 +1,11 @@
 import React from 'react';
 import NavBar from './components/NavBar';
+import {Router, Routes, Route} from "react-router-dom";
 import Home from './components/Home';
 import Menu from './components/Menu';
 import About from './components/About';
 import Contact from './components/Contact';
 import './App.css';
-import {Router, Routes, Route} from "react-router-dom";
 
 function App() {
   return (                                                                                                                                                                                                                                                                                                                                                                                                

@@ -1,5 +1,5 @@
 import React, {useState} from "react";
-import Logo from "./AutomativeLogo.jpg";
+import Logo from "../assets/AutomotiveLogo.jpg";
 import {Link} from "react-router-dom";
 import "../styles/Navbar.css";
 
