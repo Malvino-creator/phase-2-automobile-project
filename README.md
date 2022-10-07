@@ -1,70 +1,51 @@
-# Getting Started with Create React App
+# Pizza-Inn Restaurant 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### (MS School Project)
 
-## Available Scripts
++ [Description](#overall-project-description)
++ [Setup instructions](#setup-instructions)
++ [Technology Used](#languages-and-frameworks)
++ [Licence](#Licence)
++ [Authors Info](#Author)
+## Overall Project Description
 
-In the project directory, you can run:
+- This project is a website application where pizza lovers get to enjoy the variety while getting mouth watering cuisines at great offers. Through the app we get to manage our large volumes that trickle in on a daily basis and satisfy our every customers' need as well as go beyond to leave a form through which they can contact us and leave reviews.
 
-### `npm start`
+## User Stories:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- In the Home Page, our name restaurant name and contact is displayed.
+- A user is then able to move to different areas like the Menu, List, About information and Contact.
+- One is able to browse over the different kinds of pizzas that they would be interested in.
+- Place an order for my Pizza and get it served.
+- Have an option to order as many pizzas as I want.
+- The page is able to toggle anytime it is toggled to minify and the Navbar list dissapears and vice-versa.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Languages and Frameworks
 
-### `npm test`
+- React 
+- Bootstrap
+- JavaScript
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Known Bugs
 
-### `npm run build`
+- Currently not aware of any. Open to project improvement suggestions.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Contributing
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Contributions to the project are welcome. Fork this repo to contribute.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Setup instructions
 
-### `npm run eject`
+HTTPS: `git clone https://github.com/Malvino-creator/phase-2-automobile-project`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+SSH: `git clone https://github.com/Malvino-creator/phase-2-automobile-project`
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Live Site
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+#### Available Here: ()
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Licence
+[MIT LICENCE](LICENSE)
+## Author
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- [Malvin Opondo](https://github.com/Malvino-creator)
