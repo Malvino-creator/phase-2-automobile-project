@@ -1,11 +1,9 @@
 import React, {useState} from "react";
-import Logo from "../assets/AutomotiveLogo.jpg";
 import {Link} from "react-router-dom";
 import "../styles/Navbar.css";
 
 function Navbar() {
     const [openLinks, setOpenLinks] = useState(false);
-
     const toggleNavbar = () => {
         setOpenLinks(!openLinks);
     };
@@ -14,7 +12,6 @@ function Navbar() {
             <div className="navbar">
                 <div className="leftSide" id={openLinks ? "open" :"close"}>
                     <div className="image">
-                    <img src= {Logo} alt="logo" />
                     </div>
                     <div className = "hiddenLinks">
                         <Link to = "/"> Home </Link>
@@ -30,6 +27,7 @@ function Navbar() {
                     </div>
                     </div>
                 </div>
+                <button className="click" onClick={toggleNavbar}></button>
             </div>
     )
 }

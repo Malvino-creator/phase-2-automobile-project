@@ -100,3 +100,10 @@
       display: none;
     }
   }
+  .home{
+    height: 100vh;
+  }
+  .btn{
+    color: blueviolet;
+    font-weight: bold;
+  }

@@ -1,7 +1,7 @@
 import React from 'react';
-import NavBar from './components/NavBar';import Home from "./Pages/Home";
-import {Router, Routes, Route} from "react-router-dom";
-import Home from './components/Home';
+import NavBar from './components/NavBar.js';
+import Home from "./components/Home";
+import {BrowserRouter, Routes, Route} from "react-router-dom";
 import Menu from './components/Menu';
 import About from './components/About';
 import Contact from './components/Contact';
@@ -10,15 +10,15 @@ import './App.css';
 function App() {
   return (                                                                                                                                                                                                                                                                                                                                                                                                
     <div className="App">
-      <Router>
+      <BrowserRouter>
         <NavBar />
       <Routes>
-      <Route path="/" element={Home} />
-      <Route path="/menu" element={Menu} />
-      <Route path="/about" element={About} />
-      <Route path="/contact" element={Contact} />
+      <Route path="/" element={<Home />} />
+      <Route path="/menu" element={<Menu />} />
+      <Route path="/about" element={<About />} />
+      <Route path="/contact" element={<Contact />} />
       </Routes>
-      </Router>   
+      </BrowserRouter>   
     </div>
   );
 }
