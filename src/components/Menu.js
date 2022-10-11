@@ -7,7 +7,7 @@ import "../styles/Menu.css";
 function Menu() {
     const[menu, setMenu]= useState([])
     useEffect(()=>{
-        fetch (" https://pantherapizza26.herokuapp.com/products")
+        fetch ("https://pantherapizza26.herokuapp.com/products")
         .then(resp => resp.json())
         .then(data => setMenu(data))
     },[])
